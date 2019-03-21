@@ -1,0 +1,26 @@
+{
+  "name": "check-recognizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "nodemon": "nodemon index.js"
+  },
+  "author": "terpinc0de",
+  "license": "ISC",
+  "dependencies": {
+    "download-file": "^0.1.5",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "node-zbarimg": "^1.0.1",
+    "util": "^0.11.1"
+  },
+  "engines": {
+    "node": "8.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
